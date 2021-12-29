@@ -2,7 +2,7 @@
 
 ## Features
 
-1. Podman 3.2.0 (w/ updated conmon, and runc)
+1. Podman 3.4.2 (w/ updated conmon, and runc)
 1. Persists through reboots and firmware updates
 1. Full Docker / Docker Compose compatibility!
 ```sh
@@ -49,8 +49,8 @@ make CC="aarch64-linux-gnu-gcc" local-cross
 1. Verify Podman version
 ```sh
 $ podman version
-Version:      3.2.0-dev
-API Version:  3.2.0-dev
+Version:      3.4.2
+API Version:  3.x.x
 Go Version:   go1.16.4
 Git Commit:   78df4f6fb2e2a404ace69219a50652f4335b7ce1-dirty
 Built:        Tue May 25 04:52:19 2021
